@@ -6,7 +6,6 @@ apply plugin: 'war'
 sourceCompatibility = 1.5
 
 repositories {
-//    mavenCentral()
     //    使用开源中国的maven仓库
     maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
 }
