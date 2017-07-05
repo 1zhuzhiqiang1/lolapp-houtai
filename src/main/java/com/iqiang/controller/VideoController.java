@@ -65,7 +65,7 @@ public class VideoController extends BaseController {
 		Document document = Jsoup.connect(url).get();
 		videoUrl = document.getElementById("video").attr("src");
 		Map<String, Object> result = this.ajaxSuccessResponse();
-		result.put("data", videoUrl);
+//		result.put("data", videoUrl);
 		return result;
 	}
 
